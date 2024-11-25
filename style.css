@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0f3;
+    color: #333;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+form {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    max-width: 650px;
+    width: 100%;
+    margin: 20px;
+}
+
+h1 {
+    color: hsla(256, 74%, 62%, 0.904);
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    color: hsla(256, 74%, 62%, 0.904);
+}
+
+label {
+    
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid hsla(256, 74%, 62%, 0.904);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: hsla(256, 74%, 62%, 0.904);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsla(256, 74%, 62%, 0.904);
+}
+
+#resumeOutput {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    max-width: 650px;
+    width: 100%;
+}
+
+#shareablelink-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#shareable-link {
+    color: hsla(256, 74%, 62%, 0.904);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#download-pdf {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#download-pdf:hover {
+    background-color: hsla(256, 74%, 62%, 0.904);
+}

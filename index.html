@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Resume Generator</h1>
+
+    <!-- Form to Collect Resume Data -->
+    <form id="resumeForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="education">Education:</label>
+        <input type="text" id="education" name="education" required><br><br>
+
+        <label for="experience">Experience:</label>
+        <input type="text" id="experience" name="experience" required><br><br>
+
+        <label for="skills">Skills:</label>
+        <input type="text" id="skills" name="skills" required><br><br>
+
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" required><br><br>
+
+        <button type="submit">Generate Resume</button>
+    </form>
+
+    <!-- Section to Display Generated Resume -->
+    <div id="resumeOutput"></div><br>
+
+    <!-- Section for Shareable Link and PDF Download -->
+    <div id="shareablelink-container" style="display: none;">
+        <h2>Shareable Link</h2>
+        <a href="#" id="shareable-link" target="_blank"></a><br>
+        <button id="download-pdf"><b>Download as PDF</b></button>
+    </div>
+
+    <!-- Link to Main JavaScript file -->
+    <script src="main.js"></script>
+</body>
+
+</html>
